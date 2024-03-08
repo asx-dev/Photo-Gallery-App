@@ -1,30 +1,38 @@
-const actionsCreator = {
+export const types = {
   LOADING: "LOADING",
   FAILURE: "FAILURE",
   SUCCESS: "SUCCESS",
 };
 
-const initialState = {
+export const initialState = {
   loading: false,
   failure: false,
-  success: false,
   nextPage: 1,
   photos: [],
 };
 
-const reducer = (state, action) => {
+export const actionsCreator = {
+  loading: () => ({ type: types.LOADING }),
+  failure: () => ({ type: types.FAILURE }),
+  success: (photos, page) => ({
+    type: types.SUCCESS,
+    payload: { photos, page },
+  }),
+};
+
+export const reducer = (state, action) => {
   switch (action.type) {
-    case "LOADING":
+    case types.LOADING:
       return { ...state, loading: true };
-    case "SUCCESS":
+    case types.SUCCESS:
       return {
         ...state,
         success: true,
         loading: false,
-        photos: [...action.photos],
-        nextPage: nextPage,
+        photos: [...state.photos, ...action.payload.photos],
+        nextPage: state.nextPage + 1,
       };
-    case "FAILURE":
+    case types.FAILURE:
       return { ...state, failure: true, loading: false };
   }
 };

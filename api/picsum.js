@@ -4,7 +4,6 @@ export const getImages = async (page = 1) => {
   try {
     const data = await fetch(`${API_URL}?page=${page}`);
     const photos = await data.json();
-    console.log(photos);
     return photos;
   } catch (error) {
     console.log(error);
