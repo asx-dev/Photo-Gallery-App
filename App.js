@@ -39,6 +39,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <PhotoGrid photos={photos} numColumns={3} onEndReached={fetchImages} />
+      <StatusBar style="light" />
     </View>
   );
 }
