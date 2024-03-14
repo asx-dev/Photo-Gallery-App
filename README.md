@@ -1,10 +1,10 @@
 # 📱 React Native Photo Gallery App
 
-This is a comprehensive guide to build a [React Native](https://reactnative.dev/) Application using the [Expo Framework](https://docs.expo.dev/). Basically it's a Photo Gallery Application with infinite scroll that interacts with the [Picsum API](https://picsum.photos/) to obtain images.
+This is a comprehensive guide to build a **[React Native](https://reactnative.dev/)** Application using the **[Expo Framework](https://docs.expo.dev/)**. Basically it's a Photo Gallery Application with infinite scroll that interacts with the **[Picsum API](https://picsum.photos/)** to obtain images.
 
 ## 📸 Screenshots
 
-<img src="https://images.unsplash.com/photo-1505156868547-9b49f4df4e04?q=80&w=1016&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="300">
+<img src="https://images.unsplash.com/photo-1505156868547-9b49f4df4e04?q=80&w=1016&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="300" style="border-radius:0.5rem">
 
 ## 🔥 Key takeaways
 
@@ -30,20 +30,34 @@ PhotoGallery
 
 In order to build this project you need to set up your development environment. You will need to install the following:
 
-1. **Node.js**: Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to run Javascript code in the server-side. React Native relies on Node.js and npm to install dependencies and manage packages.
-2. **Xcode**: Xcode enables you to develop, test and distribute apps for all Apple platforms.
-3. **Android Studio**: Official Integrated Development environment for Android app development.
-4. **Expo Framework**: Expo is an open-source platform for making universal native applications that run on Android, IOS and the Web. The Expo framework it doesn't need to be installed you just need to run this command in your terminal.
+1. **[Node.js](https://nodejs.org/en)**: Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to run Javascript code in the server-side. React Native relies on Node.js and npm to install dependencies and manage packages.
+2. **[Xcode](https://developer.apple.com/xcode/)**: Xcode enables you to develop, test and distribute apps for all Apple platforms.
+3. **[Android Studio](https://developer.android.com/studio)**: Official Integrated Development environment for Android app development.
+4. **[Expo Framework](https://expo.dev/)**: Expo is an open-source platform for making universal native applications that run on Android, IOS and the Web. The Expo framework it doesn't need to be installed you just need to run this command in your terminal.
 
    ```bash
+   Create the project
    npx create-expo-app my-app
+
+   Run the project
+   npm start
    ```
 
 _You are going to use Xcode and Android Studio just to run the simulator for the app._
 
 ### 🍎 IOS Simulator
 
+In order to run the app in the IOS simulator you need to open xcode and start the simulator and then press the command `i` in the terminal. (You need a Macbook to install Xcode)
+
+<img src="./assets/xcode.png" height="350" style="border-radius:0.5rem">
+<img src="./assets/iphone-device.png" height="350" style="border-radius:0.5rem">
+
 ### 🤖 Android Simulator
+
+In order to run the app in the Android simulator you need to open the simulator and then press the command `a` in the terminal.
+
+<img src="./assets/android.png" height="350" style="border-radius:0.5rem">
+<img src="./assets/android-device.png"  height="350" style="border-radius:0.5rem; object-fit:contain;">
 
 ## ✅ Getting Started
 
