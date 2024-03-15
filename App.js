@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import { useReducer, useEffect, useCallback } from "react";
 import { initialState, actionsCreator, reducer } from "./reducers/photos";
 import Loading from "./components/Loading";
