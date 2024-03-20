@@ -51,15 +51,13 @@ _You are going to use Xcode and Android Studio just to run the simulator for the
 
 In order to run the app in the IOS simulator you need to open xcode and start the simulator and then press the command `i` in the terminal. (You need a MacBook to install Xcode)
 
-<img src="./assets/xcode.png" height="300" width="400">
-<img src="./assets/iphone-device.png" height="300">
+<img src="./assets/xcode.png" height="300" width="400"> <img src="./assets/iphone-device.png" height="300">
 
 ### 🤖 Android Simulator
 
 In order to run the app in the Android simulator you need to open the simulator and then press the command `a` in the terminal.
 
-<img src="./assets/android.png" height="300" width="400">
-<img src="./assets/android-device.png"  height="300">
+<img src="./assets/android.png" height="300" width="400"> <img src="./assets/android-device.png"  height="300">
 
 ## 1️⃣ Getting Started
 
