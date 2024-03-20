@@ -4,8 +4,6 @@ This is a comprehensive guide to build a **[React Native](https://reactnative.de
 
 ## 📸 Screenshots
 
-<img src="https://images.unsplash.com/photo-1505156868547-9b49f4df4e04?q=80&w=1016&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="300" style="border-radius:0.5rem">
-
 ## 🔥 Key takeaways
 
 - Interact with and API.
