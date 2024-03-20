@@ -55,7 +55,7 @@ In order to run the app in the IOS simulator you need to open xcode and start th
 
 In order to run the app in the Android simulator you need to open the simulator and then press the command `a` in the terminal.
 
-<img src="./assets/android.png" height="300" width="400"> <img src="./assets/android-device.png"  height="300">
+<img src="./assets/Android.png" height="300" width="400"> <img src="./assets/android-device.png"  height="300">
 
 ## 1️⃣ Getting Started
 
