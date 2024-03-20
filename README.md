@@ -4,9 +4,7 @@ This is a comprehensive guide to build a **[React Native](https://reactnative.de
 
 ## 📸 Screenshots
 
-<img src="./assets/gallery-screen.png" height="400">
-
-![App](./assets/gallery-app.gif)
+<img src="./assets/gallery-screen.png" height="400"> ![App](./assets/gallery-app.gif)
 
 ## 🔥 Key takeaways
 
