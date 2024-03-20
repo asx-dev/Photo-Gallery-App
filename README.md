@@ -6,6 +6,8 @@ This is a comprehensive guide to build a **[React Native](https://reactnative.de
 
 <img src="./assets/gallery-screen.png" height="400">
 
+![App](./assets/gallery-app.gif)
+
 ## 🔥 Key takeaways
 
 - Interact with and API.
